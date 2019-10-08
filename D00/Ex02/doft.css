@@ -1,0 +1,114 @@
+.container
+{
+	/* background-color: rgb(14, 144, 144); */
+	display: inline-block;
+    width: 1635px;
+    height: 870;
+	position: relative;
+}
+.top
+{
+	/* background-color: rgb(144, 144, 144); */
+	border-radius: 8px;
+	box-shadow: 5px	10px 10px;
+	position: absolute;
+	margin:auto;
+	height: 135px;
+	width: 1420px;
+	top: 87px;
+	left: 230px;
+}
+.left
+{
+	/* background-color: rgb(144, 144, 144); */
+	border-radius: 10px;
+	box-shadow: 5px	10px 10px;
+	position: absolute;
+	margin:auto;
+	height: 425px;
+	width: 140px;
+	left: 260px;
+	top: 245px;
+}
+.right
+{
+	/* background-color: rgb(144, 144, 144); */
+	border-radius: 10px;
+	box-shadow: 5px	10px 10px;
+	position: absolute;
+	margin:auto;
+	height: 425px;
+	width: 140px;
+	right: 15px;
+	top: 245px;
+}
+.center
+{
+	/* background-color: rgb(144, 144, 144); */
+	border-radius: 10px;
+	box-shadow: 5px	10px 10px;
+	position: absolute;
+	margin:auto;
+	height: 580px;
+	width: 1020px;
+	left: 430px;
+	top: 245px;
+}
+.day_of_the_42
+{
+	position: absolute;
+	height: 120px;
+	width: 442px;
+	top: 10px;
+	left: 0px;
+}
+.loupe
+{
+	position: absolute;
+	height: 150px;
+	width: 251px;
+	top: 10px;
+	left: 1137px;
+}
+.reload
+{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 10px;
+	left: 1390px;
+}
+.close
+{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 107px;
+	left: 1390px;
+}
+.book
+{
+	position: absolute;
+	height: 100px;
+	width: 69px;
+	top: 13px;
+	left: 35px;
+}
+.towel
+{
+	position: absolute;
+	height: 58px;
+	width: 69px;
+	top: 118px;
+	left: 35px;
+}
+.wall
+{
+	background: url(./resources/brick.jpg);
+	background-repeat: "true";
+	position: absolute;
+	height: 70px;
+	width: 120px;
+	top: 177px;
+	left: 10px;
+}
