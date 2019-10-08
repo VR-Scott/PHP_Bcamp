@@ -6,139 +6,767 @@
 <!-- By: vscott <marvin@42.fr>                      +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2019/10/07 14:08:05 by vscott            #+#    #+#            -->
-<!-- Updated: 2019/10/07 14:08:08 by vscott           ###   ########.fr      -->
+<!-- Updated: 2019/10/08 10:21:00 by vscott           ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
 <html>
-    <head>
-        <title>Periodic Table</title>
-        <style>
+	<head>
+		<title>Periodic Table</title>
+		<style>
             .clr
             {
-                padding:2px;
-                width:auto;
-                height:auto;
+	            padding:2px;
+	            width:5%;
+	            /* height:auto; */
             }
-            .almet
-            {
-                background-color: magenta;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .alaer
-            {
-                background-color: purple;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .tranmet
-            {
-                background-color: cyan;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .basmet
-            {
-                background-color: orangered;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .semmet
-            {
-                background-color: green;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .nonmet
-            {
-                background-color: blue;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .hal
-            {
-                background-color: yellow;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .nobgas
-            {
-                background-color: orange;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .lan
-            {
-                background-color: lime;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            .act
-            {
-                background-color: red;
-                padding:2px;
-                width:auto;
-                height:auto;
-            }
-            table
-            {
-                width: 100%;
-            }
-            tb
-            {
-                text-align: center;
-            }
-            body
-            {
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body style="background-color: black;">
-        <h1 style="background-color:black; color: white; text-align:center; font-size: 5vw"> The Periodic Table</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Dmitri_Mendeleev.jpg" alt="Dmitri_Mendeleev" width="300vw" height="300vw">
-        <div contenteditable="true" style="overflow-x:auto" align="center"; style="text-align:center";>
-            <table style="text-align: center">
-                <tr>
+			.almet
+			{
+				background-color: magenta;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.alear
+			{
+				background-color: purple;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.tranmet
+			{
+				background-color: cyan;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.basmet
+			{
+				background-color: rgb(255, 170, 130);
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.semmet
+			{
+				background-color: green;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.nonmet
+			{
+				background-color: blue;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.hal
+			{
+				background-color: yellow;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.nobgas
+			{
+				background-color: orange;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.lan
+			{
+				background-color: lime;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			.act
+			{
+				background-color: red;
+				padding:2px;
+				width:5%;
+				/* height:auto; */
+			}
+			td
+			{
+				text-align: center;
+			}
+			body
+			{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body style="background-color: black; width: 98%; height: auto">
+		<h1 style="background-color:black; color: white; text-align:center; font-size: 5vw"> The Periodic Table</h1>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Dmitri_Mendeleev.jpg" alt="Dmitri_Mendeleev" width="20%">
+		<div contenteditable="true" style="overflow-x:auto" align="center"; style="text-align:center";>
+			<table align="center" style="text-align: center;">
+				<tr>
+					<td class="nonmet">
+						<p style="text-align: right; font-size: 1vw;">1.008</p>
+						<b style="font-size: 3vw;">H</b><br />
+						<p style="text-align: left; font-size: 1vw;">1</p>
+                    </td>
+                    <td class="clr"></td>
+                    <td class="almet">
+                        <b style="text-align: center; font-size: 1vw;">Alkali<br />Metal</p>
+                    </td>
+                    <td class="alear">
+                        <b style="text-align: center; font-size: 1vw;">Alkali<br />Earth</b><br />
+                    </td>
+                    <td class="tranmet">
+                        <b style="text-align: center; font-size: 1vw;">Trans<br />Metal</b><br />
+                    </td>
+                    <td class="basmet">
+                        <b style="text-align: center; font-size: 1vw;">Basic<br />Metal</b><br />
+                    </td>
+                    <td class="semmet">
+                        <b style="text-align: center; font-size: 1vw;">Semi<br />Metal</b><br />
+                    </td>
                     <td class="nonmet">
-                        <p style="text-align: right; font-size: 2vw;">1.008</p>
-                        <b style="font-size: 3vw;">H</b><br />
-                        <p style="text-align: left; font-size: 2vw;">1</p>
-                    </tb>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
-                    <td class="clr"></td>
+                        <b style="text-align: center; font-size: 1vw;">Non<br />Metal</b><br />
+                    </td>
+                    <td class="hal">
+                        <b style="text-align: center; font-size: 1vw;">Halogen</b><br />
+                    </td>
                     <td class="nobgas">
-                            <p style="text-align: right; font-size: 2vw;">4.003</p>
-                            <b style="font-size: 3vw;">He</b><br />
-                            <p style="text-align: left; font-size: 2vw;">2</p>
-                        </tb>
+                        <b style="text-align: center; font-size: 1vw;">Noble<br />Gas</b><br />
+                    </td>
+                    <td class="lan">
+                        <b style="text-align: center; font-size: 1vw;">Lanth<br />anides</b><br />
+                    </td>
+                    <td class="act">
+                        <b style="text-align: center; font-size: 1vw;">Actin<br />ides</b><br />
+                    </td>
+                        
+					<td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">4.003</p>
+						<b style="font-size: 3vw;">He</b><br />
+						<p style="text-align: left; font-size: 1vw;">2</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">6.941</p>
+						<b style="font-size: 3vw;">Li</b><br />
+						<p style="text-align: left; font-size: 1vw;">3</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">9.012</p>
+						<b style="font-size: 3vw;">Be</b><br />
+						<p style="text-align: left; font-size: 1vw;">4</p>
+                    </td>
+                    <td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">10.811</p>
+						<b style="font-size: 3vw;">B</b><br />
+						<p style="text-align: left; font-size: 1vw;">6</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">12.011</p>
+						<b style="font-size: 3vw;">C</b><br />
+						<p style="text-align: left; font-size: 1vw;">6</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">14.007</p>
+						<b style="font-size: 3vw;">N</b><br />
+						<p style="text-align: left; font-size: 1vw;">7</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">15.999</p>
+						<b style="font-size: 3vw;">O</b><br />
+						<p style="text-align: left; font-size: 1vw;">8</p>
+					</td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">18.998</p>
+						<b style="font-size: 3vw;">F</b><br />
+						<p style="text-align: left; font-size: 1vw;">9</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">20.180</p>
+						<b style="font-size: 3vw;">Ne</b><br />
+						<p style="text-align: left; font-size: 1vw;">10</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">22.99</p>
+						<b style="font-size: 3vw;">Na</b><br />
+						<p style="text-align: left; font-size: 1vw;">11</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">24.305</p>
+						<b style="font-size: 3vw;">Mg</b><br />
+						<p style="text-align: left; font-size: 1vw;">12</p>
+                    </td>
+                    <td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td><td class="clr"></td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">26.982</p>
+						<b style="font-size: 3vw;">Al</b><br />
+						<p style="text-align: left; font-size: 1vw;">13</p>
+					</td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">28.086</p>
+						<b style="font-size: 3vw;">Si</b><br />
+						<p style="text-align: left; font-size: 1vw;">14</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">30.974</p>
+						<b style="font-size: 3vw;">P</b><br />
+						<p style="text-align: left; font-size: 1vw;">15</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">32.066</p>
+						<b style="font-size: 3vw;">S</b><br />
+						<p style="text-align: left; font-size: 1vw;">16</p>
+					</td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">35.453</p>
+						<b style="font-size: 3vw;">Cl</b><br />
+						<p style="text-align: left; font-size: 1vw;">17</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">39.948</p>
+						<b style="font-size: 3vw;">Ar</b><br />
+						<p style="text-align: left; font-size: 1vw;">18</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">39.098</p>
+						<b style="font-size: 3vw;">K</b><br />
+						<p style="text-align: left; font-size: 1vw;">19</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">40.078</p>
+						<b style="font-size: 3vw;">Ca</b><br />
+						<p style="text-align: left; font-size: 1vw;">20</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">44.956</p>
+						<b style="font-size: 3vw;">Sc</b><br />
+						<p style="text-align: left; font-size: 1vw;">21</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">47.867</p>
+						<b style="font-size: 3vw;">Ti</b><br />
+						<p style="text-align: left; font-size: 1vw;">22</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">50.942</p>
+						<b style="font-size: 3vw;">V</b><br />
+						<p style="text-align: left; font-size: 1vw;">23</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">51.996</p>
+						<b style="font-size: 3vw;">Cr</b><br />
+						<p style="text-align: left; font-size: 1vw;">24</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">54.938</p>
+						<b style="font-size: 3vw;">Mn</b><br />
+						<p style="text-align: left; font-size: 1vw;">25</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">55.845</p>
+						<b style="font-size: 3vw;">Fe</b><br />
+						<p style="text-align: left; font-size: 1vw;">26</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">58.933</p>
+						<b style="font-size: 3vw;">Co</b><br />
+						<p style="text-align: left; font-size: 1vw;">27</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">58.693</p>
+						<b style="font-size: 3vw;">Ni</b><br />
+						<p style="text-align: left; font-size: 1vw;">28</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">63.546</p>
+						<b style="font-size: 3vw;">Cu</b><br />
+						<p style="text-align: left; font-size: 1vw;">29</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">65.38</p>
+						<b style="font-size: 3vw;">Zn</b><br />
+						<p style="text-align: left; font-size: 1vw;">30</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">69.723</p>
+						<b style="font-size: 3vw;">Ga</b><br />
+						<p style="text-align: left; font-size: 1vw;">31</p>
+					</td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">72.631</p>
+						<b style="font-size: 3vw;">Ge</b><br />
+						<p style="text-align: left; font-size: 1vw;">32</p>
+                    </td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">74.922</p>
+						<b style="font-size: 3vw;">As</b><br />
+						<p style="text-align: left; font-size: 1vw;">33</p>
+					</td>
+                    <td class="nonmet">
+					    <p style="text-align: right; font-size: 1vw;">78.971</p>
+						<b style="font-size: 3vw;">Se</b><br />
+						<p style="text-align: left; font-size: 1vw;">34</p>
+					</td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">79.904</p>
+						<b style="font-size: 3vw;">Br</b><br />
+						<p style="text-align: left; font-size: 1vw;">35</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">83.789</p>
+						<b style="font-size: 3vw;">Kr</b><br />
+						<p style="text-align: left; font-size: 1vw;">36</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">85.468</p>
+						<b style="font-size: 3vw;">Rb</b><br />
+						<p style="text-align: left; font-size: 1vw;">37</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">87.62</p>
+						<b style="font-size: 3vw;">Sr</b><br />
+						<p style="text-align: left; font-size: 1vw;">38</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">88.906</p>
+						<b style="font-size: 3vw;">Y</b><br />
+						<p style="text-align: left; font-size: 1vw;">39</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">91.224</p>
+						<b style="font-size: 3vw;">Zr</b><br />
+						<p style="text-align: left; font-size: 1vw;">40</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">92.906</p>
+						<b style="font-size: 3vw;">Nb</b><br />
+						<p style="text-align: left; font-size: 1vw;">41</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">95.95</p>
+						<b style="font-size: 3vw;">Mo</b><br />
+						<p style="text-align: left; font-size: 1vw;">42</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">98.907</p>
+						<b style="font-size: 3vw;">Tc</b><br />
+						<p style="text-align: left; font-size: 1vw;">43</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">101.07</p>
+						<b style="font-size: 3vw;">Ru</b><br />
+						<p style="text-align: left; font-size: 1vw;">44</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">102.906</p>
+						<b style="font-size: 3vw;">Rh</b><br />
+						<p style="text-align: left; font-size: 1vw;">45</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">106.42</p>
+						<b style="font-size: 3vw;">Pb</b><br />
+						<p style="text-align: left; font-size: 1vw;">46</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">107.868</p>
+						<b style="font-size: 3vw;">Ag</b><br />
+						<p style="text-align: left; font-size: 1vw;">47</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">112.414</p>
+						<b style="font-size: 3vw;">Cd</b><br />
+						<p style="text-align: left; font-size: 1vw;">48</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">114.818</p>
+						<b style="font-size: 3vw;">In</b><br />
+						<p style="text-align: left; font-size: 1vw;">49</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">118.711</p>
+						<b style="font-size: 3vw;">Sn</b><br />
+						<p style="text-align: left; font-size: 1vw;">50</p>
+                    </td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">121.760</p>
+						<b style="font-size: 3vw;">Sb</b><br />
+						<p style="text-align: left; font-size: 1vw;">51</p>
+                    </td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">127.6</p>
+						<b style="font-size: 3vw;">Te</b><br />
+						<p style="text-align: left; font-size: 1vw;">52</p>
+					</td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">126.904</p>
+						<b style="font-size: 3vw;">I</b><br />
+						<p style="text-align: left; font-size: 1vw;">53</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">131.294</p>
+						<b style="font-size: 3vw;">Xe</b><br />
+						<p style="text-align: left; font-size: 1vw;">54</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">132.905</p>
+						<b style="font-size: 3vw;">Cs</b><br />
+						<p style="text-align: left; font-size: 1vw;">55</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">137.328</p>
+						<b style="font-size: 3vw;">Ba</b><br />
+						<p style="text-align: left; font-size: 1vw;">56</p>
+                    </td>
+                    <td class="lan">
+					    <b style="text-align: center; font-size: 1vw;">Lanth<br />anides</p>
+						<b style="text-align: center; font-size: 1vw;">57-71</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">178.49</p>
+						<b style="font-size: 3vw;">Hf</b><br />
+						<p style="text-align: left; font-size: 1vw;">72</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">180.948</p>
+						<b style="font-size: 3vw;">Ta</b><br />
+						<p style="text-align: left; font-size: 1vw;">73</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">183.84</p>
+						<b style="font-size: 3vw;">W</b><br />
+						<p style="text-align: left; font-size: 1vw;">74</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">186.207</p>
+						<b style="font-size: 3vw;">Re</b><br />
+						<p style="text-align: left; font-size: 1vw;">75</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">190.23</p>
+						<b style="font-size: 3vw;">Os</b><br />
+						<p style="text-align: left; font-size: 1vw;">76</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">192.217</p>
+						<b style="font-size: 3vw;">Ir</b><br />
+						<p style="text-align: left; font-size: 1vw;">77</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">195.085</p>
+						<b style="font-size: 3vw;">Pt</b><br />
+						<p style="text-align: left; font-size: 1vw;">78</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">196.967</p>
+						<b style="font-size: 3vw;">Au</b><br />
+						<p style="text-align: left; font-size: 1vw;">79</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">200.592</p>
+						<b style="font-size: 3vw;">Hg</b><br />
+						<p style="text-align: left; font-size: 1vw;">80</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">204.383</p>
+						<b style="font-size: 3vw;">Tl</b><br />
+						<p style="text-align: left; font-size: 1vw;">81</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">207.2</p>
+						<b style="font-size: 3vw;">Pb</b><br />
+						<p style="text-align: left; font-size: 1vw;">82</p>
+                    </td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">208.980</p>
+						<b style="font-size: 3vw;">Bi</b><br />
+						<p style="text-align: left; font-size: 1vw;">83</p>
+                    </td>
+                    <td class="semmet">
+					    <p style="text-align: right; font-size: 1vw;">208.982</p>
+						<b style="font-size: 3vw;">Po</b><br />
+						<p style="text-align: left; font-size: 1vw;">84</p>
+					</td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">209.987</p>
+						<b style="font-size: 3vw;">At</b><br />
+						<p style="text-align: left; font-size: 1vw;">85</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">222.018</p>
+						<b style="font-size: 3vw;">Rn</b><br />
+						<p style="text-align: left; font-size: 1vw;">86</p>
+					</td>
+                </tr>
+                <tr>
+					<td class="almet">
+						<p style="text-align: right; font-size: 1vw;">223.020</p>
+						<b style="font-size: 3vw;">Fr</b><br />
+						<p style="text-align: left; font-size: 1vw;">87</p>
+                    </td>
+                    <td class="alear">
+						<p style="text-align: right; font-size: 1vw;">226.025</p>
+						<b style="font-size: 3vw;">Ra</b><br />
+						<p style="text-align: left; font-size: 1vw;">88</p>
+                    </td>
+                    <td class="act">
+					    <b style="text-align: center; font-size: 1vw;">Actin<br />ides</p>
+						<b style="text-align: center; font-size: 1vw;">89-103</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[261]</p>
+						<b style="font-size: 3vw;">Rf</b><br />
+						<p style="text-align: left; font-size: 1vw;">104</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[262]</p>
+						<b style="font-size: 3vw;">Db</b><br />
+						<p style="text-align: left; font-size: 1vw;">105</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[266]</p>
+						<b style="font-size: 3vw;">Sg</b><br />
+						<p style="text-align: left; font-size: 1vw;">106</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[264]</p>
+						<b style="font-size: 3vw;">Bh</b><br />
+						<p style="text-align: left; font-size: 1vw;">107</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[269]</p>
+						<b style="font-size: 3vw;">Hs</b><br />
+						<p style="text-align: left; font-size: 1vw;">108</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[278]</p>
+						<b style="font-size: 3vw;">Mt</b><br />
+						<p style="text-align: left; font-size: 1vw;">109</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[281]</p>
+						<b style="font-size: 3vw;">Ds</b><br />
+						<p style="text-align: left; font-size: 1vw;">110</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[280]</p>
+						<b style="font-size: 3vw;">Rg</b><br />
+						<p style="text-align: left; font-size: 1vw;">111</p>
+                    </td>
+                    <td class="tranmet">
+					    <p style="text-align: right; font-size: 1vw;">[285]</p>
+						<b style="font-size: 3vw;">Cn</b><br />
+						<p style="text-align: left; font-size: 1vw;">112</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">[286]</p>
+						<b style="font-size: 3vw;">Nh</b><br />
+						<p style="text-align: left; font-size: 1vw;">113</p>
+					</td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">[289]</p>
+						<b style="font-size: 3vw;">Fl</b><br />
+						<p style="text-align: left; font-size: 1vw;">114</p>
+                    </td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">[286]</p>
+						<b style="font-size: 3vw;">Mc</b><br />
+						<p style="text-align: left; font-size: 1vw;">115</p>
+                    </td>
+                    <td class="basmet">
+					    <p style="text-align: right; font-size: 1vw;">[293]</p>
+						<b style="font-size: 3vw;">Lv</b><br />
+						<p style="text-align: left; font-size: 1vw;">116</p>
+                    </td>
+                    <td class="hal">
+					    <p style="text-align: right; font-size: 1vw;">[294]</p>
+						<b style="font-size: 3vw;">Ts</b><br />
+						<p style="text-align: left; font-size: 1vw;">117</p>
+					</td>
+                    <td class="nobgas">
+					    <p style="text-align: right; font-size: 1vw;">[294]</p>
+						<b style="font-size: 3vw;">Og</b><br />
+						<p style="text-align: left; font-size: 1vw;">118</p>
+					</td>
+				</tr>
+            </table>
+            <br /><br />
+            <table>
+                <tr  class="lan">
+                    <td>
+                            <b style="text-align: center; font-size: 1vw;">Lanth<br />anides</p>
+                            <b style="text-align: center; font-size: 1vw;">57-71</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">138.905</p>
+						<b style="font-size: 3vw;">La</b><br />
+						<p style="text-align: left; font-size: 1vw;">57</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">140.116</p>
+                        <b style="font-size: 3vw;">Ce</b><br />
+                        <p style="text-align: left; font-size: 1vw;">58</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">140.908</p>
+                        <b style="font-size: 3vw;">Pr</b><br />
+                        <p style="text-align: left; font-size: 1vw;">59</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">144.243</p>
+                        <b style="font-size: 3vw;">Nd</b><br />
+                        <p style="text-align: left; font-size: 1vw;">60</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">144.913</p>
+                        <b style="font-size: 3vw;">Pm</b><br />
+                        <p style="text-align: left; font-size: 1vw;">61</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">150.36</p>
+                        <b style="font-size: 3vw;">Sm</b><br />
+                        <p style="text-align: left; font-size: 1vw;">62</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">151.964</p>
+                        <b style="font-size: 3vw;">Eu</b><br />
+                        <p style="text-align: left; font-size: 1vw;">63</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">157.25</p>
+                        <b style="font-size: 3vw;">Gd</b><br />
+                        <p style="text-align: left; font-size: 1vw;">64</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">158.925</p>
+                        <b style="font-size: 3vw;">Tb</b><br />
+                        <p style="text-align: left; font-size: 1vw;">65</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">162.500</p>
+                        <b style="font-size: 3vw;">Dy</b><br />
+                        <p style="text-align: left; font-size: 1vw;">66</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">164.930</p>
+                        <b style="font-size: 3vw;">Ho</b><br />
+                        <p style="text-align: left; font-size: 1vw;">67</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">167.259</p>
+                        <b style="font-size: 3vw;">Er</b><br />
+                        <p style="text-align: left; font-size: 1vw;">68</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">168.934</p>
+                        <b style="font-size: 3vw;">Tm</b><br />
+                        <p style="text-align: left; font-size: 1vw;">69</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">173.055</p>
+                        <b style="font-size: 3vw;">Yb</b><br />
+                        <p style="text-align: left; font-size: 1vw;">70</p>
+                    </td>
+                    <td>
+                        <p style="text-align: right; font-size: 1vw;">174.967</p>
+                        <b style="font-size: 3vw;">Lu</b><br />
+                        <p style="text-align: left; font-size: 1vw;">71</p>
+                    </td>
+                </tr>
+                <tr  class="act">
+                        <td>
+                            <b style="text-align: center; font-size: 1vw;">Actin<br />ides</p>
+                            <b style="text-align: center; font-size: 1vw;">89-103</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">227.028</p>
+                            <b style="font-size: 3vw;">Ac</b><br />
+                            <p style="text-align: left; font-size: 1vw;">89</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">232.038</p>
+                            <b style="font-size: 3vw;">Th</b><br />
+                            <p style="text-align: left; font-size: 1vw;">90</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">231.036</p>
+                            <b style="font-size: 3vw;">Pa</b><br />
+                            <p style="text-align: left; font-size: 1vw;">91</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">238.029</p>
+                            <b style="font-size: 3vw;">U</b><br />
+                            <p style="text-align: left; font-size: 1vw;">92</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">237.048</p>
+                            <b style="font-size: 3vw;">Np</b><br />
+                            <p style="text-align: left; font-size: 1vw;">93</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">244.064</p>
+                            <b style="font-size: 3vw;">Pu</b><br />
+                            <p style="text-align: left; font-size: 1vw;">94</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">243.061</p>
+                            <b style="font-size: 3vw;">Am</b><br />
+                            <p style="text-align: left; font-size: 1vw;">95</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">247.070</p>
+                            <b style="font-size: 3vw;">Cm</b><br />
+                            <p style="text-align: left; font-size: 1vw;">96</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">247.070</p>
+                            <b style="font-size: 3vw;">Bk</b><br />
+                            <p style="text-align: left; font-size: 1vw;">97</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">251.080</p>
+                            <b style="font-size: 3vw;">Cf</b><br />
+                            <p style="text-align: left; font-size: 1vw;">98</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">[254]</p>
+                            <b style="font-size: 3vw;">Es</b><br />
+                            <p style="text-align: left; font-size: 1vw;">99</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">257.095</p>
+                            <b style="font-size: 3vw;">Fm</b><br />
+                            <p style="text-align: left; font-size: 1vw;">100</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">258.1</p>
+                            <b style="font-size: 3vw;">Md</b><br />
+                            <p style="text-align: left; font-size: 1vw;">101</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">259.101</p>
+                            <b style="font-size: 3vw;">No</b><br />
+                            <p style="text-align: left; font-size: 1vw;">102</p>
+                        </td>
+                        <td>
+                            <p style="text-align: right; font-size: 1vw;">[262]</p>
+                            <b style="font-size: 3vw;">Lr</b><br />
+                            <p style="text-align: left; font-size: 1vw;">103</p>
+                    </td>
                 </tr>
             </table>
-    </body>
+	</body>
 </html>
