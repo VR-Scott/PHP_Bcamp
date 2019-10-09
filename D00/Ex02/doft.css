@@ -1,6 +1,23 @@
-.container
+p
 {
-	/* background-color: rgb(14, 144, 144); */
+	position: absolute;
+	left: 10px;
+	top: -12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+}
+change
+{
+	z-index: 2;
+	font-family: serif;
+	font-size: 30pt;
+}
+change2
+{
+	text-shadow: 2px 5px 5px red;
+}
+.container
+{	
 	display: inline-block;
     width: 1635px;
     height: 870;
@@ -8,7 +25,7 @@
 }
 .top
 {
-	/* background-color: rgb(144, 144, 144); */
+	background-color: rgb(144, 144, 144);
 	border-radius: 8px;
 	box-shadow: 5px	10px 10px;
 	position: absolute;
@@ -20,7 +37,7 @@
 }
 .left
 {
-	/* background-color: rgb(144, 144, 144); */
+	background-color: rgb(144, 144, 144);
 	border-radius: 10px;
 	box-shadow: 5px	10px 10px;
 	position: absolute;
@@ -32,7 +49,7 @@
 }
 .right
 {
-	/* background-color: rgb(144, 144, 144); */
+	background-color: rgb(144, 144, 144);
 	border-radius: 10px;
 	box-shadow: 5px	10px 10px;
 	position: absolute;
@@ -44,7 +61,7 @@
 }
 .center
 {
-	/* background-color: rgb(144, 144, 144); */
+	background-color: rgb(144, 144, 144);
 	border-radius: 10px;
 	box-shadow: 5px	10px 10px;
 	position: absolute;
@@ -53,6 +70,18 @@
 	width: 1020px;
 	left: 430px;
 	top: 245px;
+}
+.message
+{
+	background-color: rgb(150, 253, 142);
+	border-radius: 11px;
+	box-shadow: 5px	10px 10px;
+	position: absolute;
+	margin:auto;
+	height: 170px;
+	width: 520px;
+	left: 185px;
+	top: 750px;
 }
 .day_of_the_42
 {
@@ -92,14 +121,14 @@
 	height: 100px;
 	width: 69px;
 	top: 13px;
-	left: 35px;
+	left: 34px;
 }
 .towel
 {
 	position: absolute;
 	height: 58px;
 	width: 69px;
-	top: 118px;
+	top: 120px;
 	left: 35px;
 }
 .wall
@@ -111,4 +140,83 @@
 	width: 120px;
 	top: 177px;
 	left: 10px;
+}
+.advance
+{
+	position: absolute;
+	height: 70px;
+	width: 69px;
+	top: 14px;
+	left: 32px;
+}
+.take
+{
+	position: absolute;
+	height: 70px;
+	width: 69px;
+	top: 95px;
+	left: 32px;
+}
+.look
+{
+	border: 4px solid red;
+	border-radius: 5px;
+	position: absolute;
+	height: 67px;
+	width: 70px;
+	top: 171px;
+	left: 28px;
+}
+.use
+{
+	position: absolute;
+	height: 70px;
+	width: 69px;
+	top: 250px;
+	left: 32px;
+}
+.speak
+{
+	position: absolute;
+	height: 70px;
+	width: 69px;
+	top: 329px;
+	left: 32px;
+}
+.cluster
+{
+	z-index: 0;
+	position: absolute;
+	height: 560px;
+	width: 1000px;
+	top: 10px;
+	left: 10px;
+}
+.chair
+{
+	border: 1px transparent;
+	position: absolute;
+	height: 220px;
+	width: 145px;
+	top: 332px;
+	left: 330px;
+}
+.screen
+{
+	border: 1px transparent;
+	position: absolute;
+	height: 170px;
+	width: 187px;
+	top: 321px;
+	left: 799px;
+}
+form
+{
+	position: absolute;
+	left: 10px;
+	top: 90px;
+}
+body
+{
+	background-color: rgb(80, 80, 80);
 }
