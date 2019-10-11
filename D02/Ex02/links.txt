@@ -1,0 +1,10 @@
+https://code.woboq.org/userspace/glibc/sysdeps/gnu/bits/utmpx.h.html
+https://geeksforgeeks.org/php-unpack-function/
+GeeksforGeeksGeeksforGeeks
+PHP | unpack() Function - GeeksforGeeks
+The unpack() function is an inbuilt function in PHP which is used to unpack from a binary string into the respective format. Syntax: array unpack(… Read More »
+8 Jul
+https://www.codediesel.com/php/unpacking-binary-data/
+codedieselcodediesel
+Unpacking binary data in PHP - codediesel
+working with binary data in php using pack and unpack functions
