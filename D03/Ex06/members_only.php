@@ -4,7 +4,7 @@ if (($_SERVER['PHP_AUTH_USER'] !== "zaz") || ($_SERVER['PHP_AUTH_PW']) !== "Ilov
 {
     header('HTTP/1.0 401 Unauthorized');
     header('WWW-Authenticate: Basic realm=\'\'Member area\'\'');
-    echo "<html><body>That area is accessible for menbers only</body><html>\n";
+    echo "<html><body>That area is accessible for members only</body><html>\n";
 }
 else
 {
